@@ -1,0 +1,28 @@
+{
+    "model": "RandomForestClassifier",
+    "n_estimators": 200,
+    "max_depth": 10,
+    "random_state": 42,
+    "n_features": 19,
+    "features": [
+        "ECG_mean_rr",
+        "ECG_std_rr",
+        "ECG_heart_rate",
+        "ECG_hrv",
+        "EDA_mean",
+        "EDA_std",
+        "EDA_max",
+        "EDA_min",
+        "EDA_num_peaks",
+        "ACC_mean",
+        "ACC_std",
+        "ACC_max",
+        "ACC_min",
+        "ACC_rms",
+        "TEMP_mean",
+        "TEMP_std",
+        "TEMP_max",
+        "TEMP_min",
+        "TEMP_slope"
+    ]
+}
